@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OasisHousing.Application", "OasisHousing.Application", "{878B4193-CA3A-4708-986E-7C43F4C88BAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OasisHousing.Domain", "OasisHousing.Domain", "{A652B5CE-0DF2-4C39-AFB4-7E3D0D6733C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OasisHousing.IoC", "OasisHousing.IoC", "{DA5F7B18-F609-4A0C-8A39-CEBB9B7BD667}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OasisHousing.Infra.Data", "OasisHousing.Infra.Data", "{6E0F648F-BB60-470E-A323-583BDFE95208}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OasisHousing.UI.Mvc", "OasisHousing.UI.Mvc", "{7F751321-D8F2-4522-83D9-C0A5CE70480C}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

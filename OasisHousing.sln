@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OasisHousing.Application", "OasisHousing.Application", "{878B4193-CA3A-4708-986E-7C43F4C88BAA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{878B4193-CA3A-4708-986E-7C43F4C88BAA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OasisHousing.Domain", "OasisHousing.Domain", "{A652B5CE-0DF2-4C39-AFB4-7E3D0D6733C1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A652B5CE-0DF2-4C39-AFB4-7E3D0D6733C1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OasisHousing.IoC", "OasisHousing.IoC", "{DA5F7B18-F609-4A0C-8A39-CEBB9B7BD667}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{DA5F7B18-F609-4A0C-8A39-CEBB9B7BD667}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OasisHousing.Infra.Data", "OasisHousing.Infra.Data", "{6E0F648F-BB60-470E-A323-583BDFE95208}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{6E0F648F-BB60-470E-A323-583BDFE95208}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OasisHousing.UI.Mvc", "OasisHousing.UI.Mvc", "{7F751321-D8F2-4522-83D9-C0A5CE70480C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7F751321-D8F2-4522-83D9-C0A5CE70480C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OasisHousing.Api", "OasisHousing.Api\OasisHousing.Api.csproj", "{9C055643-CB03-4BF3-8C40-36E773F53EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OasisHousing.Domain", "OasisHousing.Domain\OasisHousing.Domain.csproj", "{0E394D28-3879-472B-BEF0-66C4D4B47182}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +27,17 @@ Global
 		{9C055643-CB03-4BF3-8C40-36E773F53EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C055643-CB03-4BF3-8C40-36E773F53EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C055643-CB03-4BF3-8C40-36E773F53EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E394D28-3879-472B-BEF0-66C4D4B47182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E394D28-3879-472B-BEF0-66C4D4B47182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E394D28-3879-472B-BEF0-66C4D4B47182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E394D28-3879-472B-BEF0-66C4D4B47182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9C055643-CB03-4BF3-8C40-36E773F53EE9} = {7F751321-D8F2-4522-83D9-C0A5CE70480C}
+		{0E394D28-3879-472B-BEF0-66C4D4B47182} = {A652B5CE-0DF2-4C39-AFB4-7E3D0D6733C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34E729DC-C58A-4367-B6D5-B4DD04C2D16B}
